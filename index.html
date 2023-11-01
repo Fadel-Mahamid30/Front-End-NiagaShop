@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niaga Shop</title>
+    <link rel="icon" href="/img/logo-title.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="landing-page">
+        <nav>
+            <div class="nav-body">
+                <div class="is-btn-and-logo">
+                    <div class="logo">
+                        <img src="/img/logo-white.png" alt="logo">
+                        <h3>Niaga Shop</h3>
+                    </div>
+                    <div class="btn-menu">
+                        <ion-icon class="menu" name="menu"></ion-icon>
+                        <ion-icon class="close" name="close"></ion-icon>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#landing-page" id="nav-landing-page">Home</a></li>
+                    <li><a href="#keunggulan" id="nav-keunggulan">Keunggulan</a></li>
+                    <li><a href="#produk" id="nav-produk">Produk</a></li>
+                </ul>
+                <div class="containt-btn">
+                    <div class="btn-keranjang">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <p>Keranjang</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="containt">
+                <div class="text-containt">
+                    <p class="slogan-1">Koleksi Tren Sepatu Masa Kini.</p>
+                    <h1 class="slogan-2">Kenakan Kebahagiaan di Setiap <span>Langkah</span></h1>
+                    <div class="text">
+                        Kami adalah destinasi online terpercaya untuk menemukan koleksi sepatu terbaru 
+                        dengan berbagai gaya, dari yang trendi hingga yang klasik. Temukan gaya Anda di sini.
+                    </div>
+                    <div class="list-buttons">
+                        <a href="" class="btn-keunggulan">Keunggulan</a>
+                        <a href="" class="btn-produk">Produk</a>
+                    </div>
+                </div>
+                <div class="image-containt">
+                    <img src="/img/landing-page-img.png" alt="shoes">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="keunggulan">
+        <div class="container">
+
+            <div class="title-keunggulan">
+                <h2>Keunggulan</h2>
+                <h3>Berbelanja DI Toko Kami</h3>
+            </div>
+            <div class="list-keunggulan">
+                <div class="item-keunggulan">
+                    <div class="icon">
+                        <ion-icon name="footsteps-outline"></ion-icon>
+                    </div>
+                    <h3>Koleksi yang Beragam </h3>
+                    <p>
+                        Menyediakan berbagai jenis sepatu untuk semua selera dan kebutuhan, termasuk 
+                        sepatu olahraga, kasual, formal, dan sepatu khusus lainnya.
+                    </p>
+                </div>
+                <div class="item-keunggulan">
+                    <div class="icon">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                    </div>
+                    <h3>Kenyamanan Berbelanja</h3>
+                    <p>
+                        Menyediakan pengalaman berbelanja online yang mudah, aman, dan nyaman dengan 
+                        berbagai pilihan pembayaran  dan kebijakan yang fleksibel.
+                    </p>
+                </div>
+                <div class="item-keunggulan">
+                    <div class="icon">
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <h3>Kualitas Terjamin</h3>
+                    <p>
+                        Menekankan pada kualitas produk dengan menghadirkan merek-merek terkemuka dan 
+                        produk berkualitas tinggi yang dapat diandalkan oleh pelanggan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="produk">
+        <div class="title-produk">
+            <h2>Produk</h2>
+            <h3>Pilih Sepatu Terbaikmu</h3>
+        </div>
+        <div id="card-produk">
+
+        </div>
+        <div class="search">
+            <p>Cari Sepatu Terbaikmu</p>
+            <div class="space"></div>
+            <div class="form-search">
+                <input type="text" id="search-input" class="search-input" placeholder="Search">
+                <button type="submit" id="btn-search" class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+        </div>
+        <div id="list-produk">
+            
+        </div>
+        <div id="pagination">
+            <p><span class="first-page"></span> Page For <span class="last-page"></span>Page</p>
+            <ul>
+                <li><div class="prev"><ion-icon name="chevron-back-outline"></ion-icon></div></li>
+                <li><p>1</p></li>
+                <li><div class="next"><ion-icon name="chevron-forward-outline"></ion-icon></div></li>
+            </ul>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="about">
+                    <img src="img/logo-white-lanscape.png" alt="">
+                    <p>
+                        Niaga Shop adalah toko online yang didedikasikan untuk menghadirkan sepatu terbaik untuk Anda. Dengan beragam pilihan, 
+                        dari sepatu olahraga hingga sepatu formal, kami berusaha untuk memenuhi kebutuhan sepatu Anda.
+                    </p>
+                </div>
+                <div class="kontak">
+                    <h3>Kontak</h3>
+                    <div class="no-tlp">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <p>085710678986</p>
+                    </div>
+                    <div class="email">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <p>niagaShop@gmail.com</p>
+                    </div>
+                    <div class="lokasi">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <p>Desa Citeureup, Kec. Citeureup, Kab. Bogor Jawa Barat, 16810</p>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <h3>subscribe</h3>
+                    <input type="text" id="input-subscribe" placeholder="Subscribe">
+                    <button class="btn-subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">
+            <h3>© 2023 Niaga Shop</h3>
+        </div>
+    </section>
+
+
+    <!-- modal pesanan  -->
+    <div id="modal-pesanan">
+        <div class="card-pesanan">
+            <div class="header">
+                <h2>Pesanan</h2>
+                <div id="close-modal" class="close">
+                    <ion-icon name="close" class="close"></ion-icon></ion-icon>
+                </div>
+            </div>
+            <div class="body">
+                <div class="list-pesanan">
+                    
+                </div>
+            </div>
+            <div class="footer">
+                <button type="submit" id="btn-selesai" class="close">Selesai</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ion-icon  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
